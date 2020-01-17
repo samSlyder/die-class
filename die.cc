@@ -19,7 +19,7 @@ Die::Die(int newNumSides){
         numSides = 6;
     }
     srand(time(NULL));
-    faceValue = rand() % numsides + 1;
+    faceValue = rand() % numSides + 1;
 }
 
 //setters
